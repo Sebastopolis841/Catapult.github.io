@@ -9,6 +9,7 @@ body {
     width: 130px;
     background-color: #f1f1f1;
     position: fixed;
+    top: 0;
     height: 100%;
     overflow: auto;
   }
