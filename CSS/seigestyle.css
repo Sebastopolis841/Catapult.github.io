@@ -31,3 +31,8 @@ dt {
 strong {
     font-size: large;
 }
+
+.annot {
+    text-indent: 40px;
+    margin-left: 3%;
+}
