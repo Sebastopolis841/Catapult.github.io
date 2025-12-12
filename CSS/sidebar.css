@@ -13,7 +13,7 @@ body {
     overflow: auto;
   }
   
-  .VA a {
+  #sidebar li a {
     display: block;
     color: black;
     padding: 8px 16px;
@@ -21,13 +21,13 @@ body {
     border-left: 2px solid black;
   }
   
-  .VA a.active {
+  #sidebar li a.active {
     background-color: #04AA6D;
     color: white;
     border-left: 2px solid white;
   }
   
-  .VA a:hover:not(.active) {
+  #sidebar li a:hover:not(.active) {
     background-color: #555555;
     color: white;
     border-left: 2px solid white;
