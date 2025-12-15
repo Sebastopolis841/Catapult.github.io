@@ -32,7 +32,7 @@ strong {
     font-size: large;
 }
 
-.annot {
+#annot p {
     text-indent: 40px;
     margin-left: 3%;
 }
