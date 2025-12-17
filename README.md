@@ -4,8 +4,11 @@ This is a joint project between me and Greetingsplayer1 to make a project on sei
 ## To Do
 - Add information to each page mainly onger and scorpion.
 - Make sure everything works.
+- Add images to ballista.html
+- Add latin quotes
 
 ## Finished
 - The color scheme is realy good should be fully done.
 - made the main page so far.
 - have the css mainly looked in may need a few edits but mainly done.
+- Put images in scorpion.html and onager.html
