@@ -1,11 +1,13 @@
 body {
-    background-color: rgb(14, 122, 155);
-    color: rgb(225, 255, 0);
+    background-color: #2c3e50;
+    color: #ecf0f1;
     margin-left: 3%;
+    font-size: 16px;
+    line-height: 1.6;
 }
 
 h1, h2, h3 {
-    color: lightyellow;
+    color: #3498db;
 }
 
 #title {
@@ -15,7 +17,12 @@ h1, h2, h3 {
 }
 
 a {
-    color: lemonchiffon;
+    color: #f39c12;
+}
+
+a:focus {
+    outline: 3px solid #f39c12;
+    outline-offset: 2px;
 }
 
 dd {
