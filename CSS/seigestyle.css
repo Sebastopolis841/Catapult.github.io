@@ -43,3 +43,7 @@ strong {
     text-indent: 40px;
     margin-left: 3%;
 }
+
+img {
+    cursor: pointer;
+}

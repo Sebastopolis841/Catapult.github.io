@@ -12,3 +12,4 @@ This is a joint project between me and Greetingsplayer1 to make a project on sei
 - made the main page so far.
 - have the css mainly looked in may need a few edits but mainly done.
 - Put images in scorpion.html and onager.html
+- Made images show alt text when clicked
