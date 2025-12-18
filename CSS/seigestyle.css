@@ -47,3 +47,13 @@ strong {
 img {
     cursor: pointer;
 }
+
+dt a {
+    color: #f39c12;
+    text-decoration: none;
+}
+
+dt a:focus {
+    outline: none;
+    text-decoration: underline;
+}
