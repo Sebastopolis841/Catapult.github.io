@@ -2,10 +2,10 @@
 This is a joint project between me and Greetingsplayer1 to make a project on seige machines, specifically catapults.
 
 ## To Do
-- Add information to each page mainly onger and scorpion.
-- Make sure everything works.
-- Add images to ballista.html
 - Add latin quotes
+
+## Can Do
+- play with image sizes
 
 ## Finished
 - The color scheme is realy good should be fully done.
