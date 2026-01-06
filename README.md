@@ -6,6 +6,7 @@ This is a joint project between me and Greetingsplayer1 to make a project on sei
 
 ## Can Do
 - play with image sizes
+- add grids to all pages
 
 ## Finished
 - The color scheme is realy good should be fully done.

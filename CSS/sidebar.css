@@ -12,6 +12,7 @@ body {
     top: 0;
     height: 100%;
     overflow: auto;
+    grid-area: sidebar;
   }
   
   #sidebar li a {

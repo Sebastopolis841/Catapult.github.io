@@ -6,6 +6,19 @@ body {
     line-height: 1.6;
 }
 
+.grid {
+  display: grid;
+  grid:
+    'sidebar title' 152px
+    'sidebar main' 100%
+    /130px 1fr;
+}
+
+#main {
+    grid-area: main;
+    padding: 30px;
+}
+
 h1, h2, h3 {
     color: #3498db;
 }
@@ -14,6 +27,7 @@ h1, h2, h3 {
     font-size: 64px;
     font-weight: bold;
     margin-left: 30%;
+    grid-area: title;
 }
 
 a {
