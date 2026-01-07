@@ -5,7 +5,7 @@ This is a joint project between me and Greetingsplayer1 to make a project on sei
 - Add latin quotes
 
 ## Can Do
-- play with image sizes
+- Done
 
 ## Finished
 - The color scheme is realy good should be fully done.
@@ -14,3 +14,5 @@ This is a joint project between me and Greetingsplayer1 to make a project on sei
 - Put images in scorpion.html and onager.html
 - Made images show alt text when clicked
 - Added grids to all pages
+- Played with image sizes.
+- Added brief descriptions on index.html.

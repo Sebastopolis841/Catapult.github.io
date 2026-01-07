@@ -60,6 +60,7 @@ strong {
 
 img {
     cursor: pointer;
+    height: 300px;
 }
 
 dt a {
