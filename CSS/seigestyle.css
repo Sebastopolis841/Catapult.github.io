@@ -56,7 +56,14 @@ strong {
 #annot p {
     text-indent: 40px;
     margin-left: 3%;
+    font-style: italic;
 }
+
+#annot {
+    border-left: 2px solid #f39c12;
+    padding: 5px;
+}
+
 
 img {
     cursor: pointer;

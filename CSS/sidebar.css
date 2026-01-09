@@ -13,6 +13,7 @@ body {
     height: 100%;
     overflow: auto;
     grid-area: sidebar;
+    font-size: 18px;
   }
   
   #sidebar li a {
