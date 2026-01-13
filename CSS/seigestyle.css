@@ -79,3 +79,20 @@ dt a:focus {
     outline: none;
     text-decoration: underline;
 }
+
+#qgrid {
+    display: grid;
+    grid:
+        'latin eng' 100%
+        /50% 50%;
+}
+
+#latin {
+    grid-area: latin;
+    padding-left: 50px;
+}
+
+#eng {
+    grid-area: eng;
+    padding-left: 50px;
+}
