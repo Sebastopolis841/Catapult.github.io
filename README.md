@@ -5,7 +5,7 @@ This is a joint project between me and Greetingsplayer1 to make a project on sei
 - Add latin quotes
 
 ## Can Do
-- Done
+- Fun mode button
 
 ## Finished
 - The color scheme is realy good should be fully done.
@@ -16,3 +16,4 @@ This is a joint project between me and Greetingsplayer1 to make a project on sei
 - Added grids to all pages
 - Played with image sizes.
 - Added brief descriptions on index.html.
+- Removed citations from wikipedia
