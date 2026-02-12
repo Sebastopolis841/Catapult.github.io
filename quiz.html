@@ -15,19 +15,21 @@
         
             <ul id="sidebar">
                 <li><a href="index.html">Main Page</a></li>
-                <li>
-                    <ul id="sections">
-                        <li><a href="#top">Top</a></li>
-                        <li><a href="#history">History</a></li>
-                        <li><a href="#types">Types</a></li>
-                    </ul>
-                </li>
                 <li><a href="scorpion.html">Scorpion</a></li>
                 <li><a href="ballista.html">Ballista</a></li>
                 <li><a href="onager.html">Onager</a></li>
                 <li><a href="quiz.html">Quiz</a></li>
+                <li>
+                    <ul id="sections">
+                        <li><a href="#top">Question 2</a></li>
+                        <li><a href="#q1">Question 1</a></li>
+                        <li><a href="#q2">Question 2</a></li>
+                        <li><a href="#q3">Question 3</a></li>
+                        <li><a href="#q4">Question 4</a></li>
+                        <li><a href="#q5">Question 5</a></li>
+                    </ul>
+                </li>
                 <li><a href="bibliography.html">Bibliography</a></li>
-            
             </ul>
 
             <div id="main">
@@ -35,13 +37,11 @@
                     <fieldset id="quiz">
                         <legend><h1>Quiz!</h1></legend>
 
-                        <fieldset>
+                        <fieldset id="q1">
                             <legend>
                                 Question 1: 
                                 What were the 3 main types of catapults in Rome?
                             </legend>
-                            <br>
-                            <br>
                             <input type="checkbox" id="1.1" name="q1" value="right">
                             <label for="1.1">Onager</label>
                             <br>
@@ -55,13 +55,11 @@
                             <label for="1.4">Ballista</label>
                         </fieldset>
                         <br>
-                        <fieldset>
+                        <fieldset id="q2">
                             <legend>
                                 Question 2:
                                 How far can a ballista shoot?
                             </legend>
-                            <br>
-                            <br>
                              <input type="radio" id="2.1" name="q2" value="wrong">
                             <label for="2.1">100-300 feet</label>
                             <br>
@@ -75,13 +73,11 @@
                             <label for="2.4">Ballista</label>
                         </fieldset>
                         <br>
-                        <fieldset>
+                        <fieldset id="q3">
                             <legend>
                                 Question 3:
                                 How many pounds of force does an onager shoot with?
                             </legend>
-                            <br>
-                            <br>
                              <input type="radio" id="3.1" name="q3" value="wrong">
                             <label for="3.1">200</label>
                             <br>
@@ -95,13 +91,11 @@
                             <label for="3.4">1000</label>
                         </fieldset>
                         <br>
-                        <fieldset>
+                        <fieldset id="q4">
                             <legend>
                                 Question 4: 
                                 Why is the scorpion different from the other catapults?
                             </legend>
-                            <br>
-                            <br>
                             <input type="radio" id="4.1" name="q4" value="wrong">
                             <label for="4.1">It is bigger and shoots bigger projectiles.</label>
                             <br>
@@ -115,13 +109,11 @@
                             <label for="4.4">It is an agile and quick slightly bigger crossbow that shoots heavy  bolts</label>
                         </fieldset>
                         <br>
-                        <fieldset>
+                        <fieldset id="q5">
                             <legend>
                                 Question 5:
                                 Why are all these all considered catapults?
                             </legend>
-                            <br>
-                            <br>
                             <input type="radio" id="5.1" name="q4" value="wrong">
                             <label for="5.1">They are big and use projectiles</label>
                             <br>
@@ -134,6 +126,8 @@
                             <input type="radio" id="5.4" name="q4" value="wrong">
                             <label for="5.4">They are commonly used in siege warfare and battles.</label>
                         </fieldset>
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
                     </fieldset>
                 </form>
             </div>
