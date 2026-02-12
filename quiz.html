@@ -126,11 +126,32 @@
                             <input type="radio" id="5.4" name="q4" value="wrong">
                             <label for="5.4">They are commonly used in siege warfare and battles.</label>
                         </fieldset>
-                        <button type="submit">Submit</button>
-                        <button type="reset">Reset</button>
+  <button type="submit">Send</button>
                     </fieldset>
                 </form>
             </div>
         </div>
+        <script>
+  const myForm = document.getElementById('my-contact-form');
+
+  myForm.addEventListener('submit', async function(e) {
+    e.preventDefault(); // Prevents page reload
+
+    const formData = new FormData(myForm);
+    const response = await fetch(myForm.action, {
+      method: 'POST',
+      body: formData,
+      headers: { 'Accept': 'application/json' }
+    });
+
+    if (response.ok) {
+      alert('Message sent successfully!');
+      myForm.reset(); // Clears form fields
+    } else {
+      alert('Error sending message.');
+    }
+  });
+</script>
+
     </body>
 </html>
