@@ -21,7 +21,7 @@
                 <li><a href="quiz.html">Quiz</a></li>
                 <li>
                     <ul id="sections">
-                        <li><a href="#top">Top</a></li>
+                        <li><a href="#top">Question 2</a></li>
                         <li><a href="#q1">Question 1</a></li>
                         <li><a href="#q2">Question 2</a></li>
                         <li><a href="#q3">Question 3</a></li>
@@ -129,18 +129,18 @@
                             <input type="radio" id="5.4" name="q5" value="wrong" required>
                             <label for="5.4">They are commonly used in siege warfare and battles.</label>
                         </fieldset>
-                        <input type="text" name="name" placeholder="Name" required>
-                        <input type="email" name="email" placeholder="Email" required>
-                        <textarea name="message" placeholder="Message" required></textarea>
-                        <button type="submit">Submit</button>
-                    </fieldset>
                     
+                    </fieldset>
+                    <input type="text" name="name" placeholder="Name" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <textarea name="message" placeholder="Message" required></textarea>
+    <button type="submit">Send</button>
                 </form>
                 <div id="status"></div>
             </div>
         </div>
 
-        <script>
+<script>
   const form = document.getElementById('contact-form');
   const status = document.getElementById('status');
 
@@ -162,7 +162,6 @@
         body: new FormData(form),
         headers: { 'Accept': 'application/json' }
     })
-<<<<<<< HEAD
     .then(response => {
         if (response.ok) {
             status.innerText = "Success! Your quiz has been submitted.";
@@ -173,15 +172,6 @@
     })
     .catch(error => {
         status.innerText = "Connection error. Please check your internet.";
-=======
-    .then(response => response.json())
-    .then(data => {
-        document.getElementById('status').innerText = "Response successfully submitted!";
-        form.reset();
-    })
-    .catch(error => {
-        document.getElementById('status').innerText = "There was an error sending your response.";
->>>>>>> refs/remotes/origin/main
     });
   });
 </script>
